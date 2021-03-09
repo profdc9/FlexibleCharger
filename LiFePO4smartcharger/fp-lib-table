@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PCB)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name LiFePO4smartcharger)(type KiCad)(uri "$(KIPRJMOD)/LiFePO4smartcharger.pretty")(options "")(descr ""))
+)
