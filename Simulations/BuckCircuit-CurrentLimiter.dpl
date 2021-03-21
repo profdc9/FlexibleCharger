@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.22>
 <Properties>
-  <View=0,0,1168,800,1,0,0>
+  <View=-113,-50,1429,948,1,30,50>
   <Grid=10,10,0>
   <DataSet=BuckCircuit-CurrentLimiter.dat>
   <DataDisplay=BuckCircuit-CurrentLimiter.sch>
@@ -20,7 +20,7 @@
 <Wires>
 </Wires>
 <Diagrams>
-  <Rect 170 676 951 556 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+  <Rect -10 802 1352 782 3 #c0c0c0 1 00 1 0.0011 0.0001 0.0015 1 -4.63069 0.5 4.30903 1 -1 0.2 1 315 0 225 "" "" "">
 	<"ngspice/tran.i(pr4)" #0000ff 0 3 0 0 0>
   </Rect>
 </Diagrams>
