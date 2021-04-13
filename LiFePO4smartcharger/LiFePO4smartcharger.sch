@@ -63,15 +63,15 @@ Text GLabel 10000 3000 2    60   Input ~ 0
 SCK
 Text GLabel 10000 2800 2    60   Input ~ 0
 MOSI
-Text GLabel 10000 2700 2    60   Input ~ 0
-BUTTON3
 Text GLabel 10000 2500 2    60   Input ~ 0
+BUTTON3
+Text GLabel 9950 4800 2    60   Input ~ 0
 BUTTON2
 Text GLabel 10000 2900 2    60   Input ~ 0
 MISO
 Text GLabel 10050 3850 2    60   Input ~ 0
 DB5
-Text GLabel 9950 4800 2    60   Input ~ 0
+Text GLabel 9950 4700 2    60   Input ~ 0
 BUTTON1
 Text GLabel 10050 3750 2    60   Input ~ 0
 DB4
@@ -958,26 +958,26 @@ $EndComp
 $Comp
 L RES R32
 U 1 1 604AADB1
-P 4050 3100
-F 0 "R32" H 4050 3200 60  0000 C CNN
-F 1 "1k" H 4050 3100 60  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4000 3100 60  0001 C CNN
-F 3 "" H 4000 3100 60  0000 C CNN
-	1    4050 3100
+P 4100 2950
+F 0 "R32" H 4100 3050 60  0000 C CNN
+F 1 "1k" H 4100 2950 60  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4050 2950 60  0001 C CNN
+F 3 "" H 4050 2950 60  0000 C CNN
+	1    4100 2950
 	-1   0    0    1   
 $EndComp
-Text GLabel 4400 3100 1    60   Input ~ 0
+Text GLabel 4400 2950 1    60   Input ~ 0
 DRAINBASE
 $Comp
 L RES R18
 U 1 1 604B98AF
-P 3550 3300
-F 0 "R18" H 3550 3400 60  0000 C CNN
-F 1 "10k" H 3550 3300 60  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3500 3300 60  0001 C CNN
-F 3 "" H 3500 3300 60  0000 C CNN
-	1    3550 3300
-	1    0    0    -1  
+P 3650 3200
+F 0 "R18" H 3650 3300 60  0000 C CNN
+F 1 "10k" H 3650 3200 60  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3600 3200 60  0001 C CNN
+F 3 "" H 3600 3200 60  0000 C CNN
+	1    3650 3200
+	0    1    1    0   
 $EndComp
 $Comp
 L Fuse F1
@@ -1473,11 +1473,11 @@ F 3 "" H 2600 5300 50  0000 C CNN
 	1    2600 5300
 	0    1    1    0   
 $EndComp
-Text GLabel 9950 4700 2    60   Input ~ 0
-CURRENTSET
-Text GLabel 9950 4600 2    60   Input ~ 0
-VOLTAGESET
 Text GLabel 10000 2600 2    60   Input ~ 0
+CURRENTSET
+Text GLabel 10000 2700 2    60   Input ~ 0
+VOLTAGESET
+Text GLabel 9950 4600 2    60   Input ~ 0
 DRAINBASE
 $Comp
 L CP C13
@@ -1900,7 +1900,7 @@ Wire Wire Line
 	6500 4700 6500 4750
 Connection ~ 5450 4700
 Wire Wire Line
-	5450 3400 5450 4700
+	5450 3500 5450 4700
 Connection ~ 800  5150
 Wire Wire Line
 	550  5150 1050 5150
@@ -1961,7 +1961,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 1950 4950 1950
 Wire Wire Line
-	4300 3100 4400 3100
+	4350 2950 4400 2950
 Wire Wire Line
 	3250 1550 3250 2100
 Wire Wire Line
@@ -2316,8 +2316,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 4700 4500 4700
 Wire Wire Line
-	3800 3100 3550 3100
-Wire Wire Line
 	4750 2950 4750 2850
 Wire Wire Line
 	3950 3900 3450 3900
@@ -2372,10 +2370,6 @@ Wire Wire Line
 	2250 5100 2650 5100
 Connection ~ 3950 4700
 Wire Wire Line
-	3800 3300 3800 3100
-Wire Wire Line
-	3300 3300 3250 3300
-Wire Wire Line
 	4500 4700 4500 4350
 Wire Wire Line
 	4500 4350 4550 4350
@@ -2408,13 +2402,9 @@ Connection ~ 2250 5800
 Connection ~ 2250 5300
 Connection ~ 3400 5300
 Wire Wire Line
-	5450 3400 2850 3400
+	2850 1550 2850 3500
 Wire Wire Line
-	2850 3400 2850 1550
-Wire Wire Line
-	4550 3300 3800 3300
-Wire Wire Line
-	4550 2350 4550 3300
+	4550 3450 4550 2350
 Wire Wire Line
 	4500 3900 4350 3900
 Wire Wire Line
@@ -2530,4 +2520,16 @@ Wire Wire Line
 	4350 6550 4350 6400
 Wire Wire Line
 	4350 6400 4500 6400
+Wire Wire Line
+	2850 3500 5450 3500
+Wire Wire Line
+	3550 3100 3550 2950
+Wire Wire Line
+	3550 2950 3850 2950
+Connection ~ 3650 2950
+Wire Wire Line
+	3250 3450 4550 3450
+Wire Wire Line
+	3250 3450 3250 3300
+Connection ~ 3650 3450
 $EndSCHEMATC
