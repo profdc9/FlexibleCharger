@@ -1,4 +1,4 @@
-update=4/28/2021 6:09:53 AM
+update=5/31/2021 12:06:27 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,6 +62,7 @@ LibName30=valves
 LibName31=lcd-016n002l
 LibName32=transformer_cnv
 LibName33=tl494
+LibName34=lm35
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
