@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:LiFePO4SmartCharger-rescue
+LIBS:FlexiblePS-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +33,7 @@ LIBS:lcd-016n002l
 LIBS:transformer_cnv
 LIBS:tl494
 LIBS:lm35
-LIBS:LiFePO4smartcharger-cache
+LIBS:FlexiblePS-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -346,7 +346,7 @@ F 3 "" H 10650 4250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 7350 6950 0    60   ~ 0
-Lithium Iron Phosphate Smart Charger by Daniel Marks\nCC-BY-SA 4.0
+Flexible Power Supply /Charger by Daniel Marks\nCC-BY-SA 4.0
 $Comp
 L C C19
 U 1 1 5B1239BE
@@ -978,7 +978,7 @@ U 1 1 604BFF47
 P 9550 5800
 F 0 "F1" V 9630 5800 50  0000 C CNN
 F 1 "SL-506P" V 9475 5800 50  0000 C CNN
-F 2 "LiFePO4smartcharger:SL506Pfuseholder" V 9480 5800 50  0001 C CNN
+F 2 "FlexiblePS:SL506Pfuseholder" V 9480 5800 50  0001 C CNN
 F 3 "" H 9550 5800 50  0001 C CNN
 	1    9550 5800
 	0    1    1    0   
@@ -1077,7 +1077,7 @@ U 1 1 6044FCC3
 P 4700 4800
 F 0 "Q2" V 5000 4750 50  0000 L CNN
 F 1 "TIP41" V 4900 4700 50  0000 L CNN
-F 2 "LiFePO4smartcharger:TO-247_TO-3P_Vertical" H 4950 4725 50  0001 L CIN
+F 2 "FlexiblePS:TO-247_TO-3P_Vertical" H 4950 4725 50  0001 L CIN
 F 3 "" H 4700 4800 50  0001 L CNN
 	1    4700 4800
 	0    -1   -1   0   

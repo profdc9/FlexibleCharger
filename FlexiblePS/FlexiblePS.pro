@@ -1,4 +1,4 @@
-update=2/14/2023 8:48:27 AM
+update=2/14/2023 2:14:47 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=/
 [eeschema/libraries]
-LibName1=LiFePO4SmartCharger-rescue
+LibName1=FlexiblePS-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors

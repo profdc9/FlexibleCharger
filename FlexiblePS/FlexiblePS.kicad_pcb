@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.35)
+    (last_trace_width 0.204)
     (user_trace_width 0.35)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -864,7 +864,7 @@
     )
   )
 
-  (module LiFePO4smartcharger:TO-247_TO-3P_Vertical (layer F.Cu) (tedit 60725B5C) (tstamp 60726311)
+  (module FlexiblePS:TO-247_TO-3P_Vertical (layer F.Cu) (tedit 60725B5C) (tstamp 60726311)
     (at 51.78 51.28 90)
     (descr "TO-247, Vertical, RM 5.45mm, TO-3P, TO-220")
     (tags "TO-247 Vertical RM 5.45mm TO-3P, TO-220")
@@ -3458,7 +3458,7 @@
     )
   )
 
-  (module LiFePO4smartcharger:SL506Pfuseholder (layer F.Cu) (tedit 6047E0DB) (tstamp 6046C6BD)
+  (module FlexiblePS:SL506Pfuseholder (layer F.Cu) (tedit 6047E0DB) (tstamp 6046C6BD)
     (at 61.96 116.6)
     (path /604BFF47)
     (fp_text reference F1 (at 0 0 90) (layer F.SilkS)

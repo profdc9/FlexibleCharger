@@ -133,7 +133,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LiFePO4smartcharger.kicad_pro",
+    "filename": "FlexiblePS.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -219,7 +219,7 @@
     },
     "legacy_lib_dir": "/",
     "legacy_lib_list": [
-      "LiFePO4SmartCharger-rescue",
+      "FlexiblePS-rescue",
       "power",
       "device",
       "transistors",
